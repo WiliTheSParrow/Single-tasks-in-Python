@@ -1,0 +1,10 @@
+# This code prints all elements of a list (class01) with an ordinal number.
+
+class01 = ["Ron", "Hagrid", "Sirius", "Harry", "Lupin", "Hedwig", "Hermione", "Voldemort", "Dumbledore", "Dudley"]
+
+print(class01)
+index = 0
+
+for name in class01:
+    index += 1
+    print(str(index) + ". " + name)
