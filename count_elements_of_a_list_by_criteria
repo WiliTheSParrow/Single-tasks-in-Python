@@ -1,0 +1,15 @@
+# This code prints the number of elements of a list (list01) which are higher than a given value (value01).
+
+
+def observing_values(observed_list, observed_value):
+    counter = 0
+    for number in observed_list:
+        if number > observed_value:
+            counter += 1
+    return counter
+
+
+list01 = [1, 2, 3, 5, 5, 7, 7, 8, 9, 10, 11]
+value01 = 10
+
+print(observing_values(list01, value01))
