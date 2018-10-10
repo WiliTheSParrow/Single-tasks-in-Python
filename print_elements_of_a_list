@@ -1,10 +1,13 @@
 # This code prints all elements of a list (class01) with an ordinal number.
 
+
+def list_elements (names_of_list):
+    index = 0
+    for name in name_of_list:
+        index += 1
+        print(str(index) + ". " + name)
+
+
 class01 = ["Ron", "Hagrid", "Sirius", "Harry", "Lupin", "Hedwig", "Hermione", "Voldemort", "Dumbledore", "Dudley"]
 
-print(class01)
-index = 0
-
-for name in class01:
-    index += 1
-    print(str(index) + ". " + name)
+print(list_elements(class01))
