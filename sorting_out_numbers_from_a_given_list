@@ -1,0 +1,23 @@
+'''
+This code examines numbers from a given list (original_list) and if they meet the given criteria, it puts them in a
+new list (new_list) and prints them out.
+'''
+
+def sort_out(original_list, value01):
+    for number in original_list:
+        if number > value01:
+            new_list.append(number)
+
+
+original_list = [1, 3, 5, 6, 43, 8]
+
+new_list = []
+
+value01 = 5
+
+sort_out(original_list, value01)
+
+# Checking
+
+print(original_list)
+print(new_list)
