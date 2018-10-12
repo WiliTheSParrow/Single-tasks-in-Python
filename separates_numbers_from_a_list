@@ -1,0 +1,24 @@
+"""
+This code examines numbers from a given list (list1) and separates them if they meet the given criteria and puts them
+in new lists (list2, list3). In the end it prints them out.
+"""
+
+def separate_numbers(list1, value1):
+    for number in list1:
+        if number > value1:
+            list2.append(number)
+        else:
+            list3.append(number)
+
+
+list1 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+list2 = []
+list3 = []
+
+value1 = 5
+
+separate_numbers(list1, value1)
+
+print(list1)
+print(list2)
+print(list3)
