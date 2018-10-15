@@ -1,0 +1,12 @@
+# This code checks the numbers of two given lists (list01, list02) and puts the equivalent numbers into a
+# third list (list03) and prints them out.
+
+def intersection(list01, list02):
+    list03 = [number for number in list01 if number in list02]
+    return list03
+
+
+list01 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+list02 = [11, 22, 33, 4, 5, 66, 7, 88, 99, 100]
+
+print(intersection(list01, list02))
