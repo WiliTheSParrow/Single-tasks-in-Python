@@ -1,0 +1,21 @@
+"""
+This code examines numbers from a given list (original_list) and finds the lowest number (min_value)
+and prints it out.
+"""
+
+
+def minimum_selection():
+    global min_value
+    indx = 0
+    min_value = original_list[indx]
+    for number in original_list:
+        if number < min_value:
+            indx += 1
+            min_value = number
+
+
+original_list = [2, 3, 4, 5, 1, 10, 6, 7, 8, 9]
+
+minimum_selection()
+
+print(min_value)
