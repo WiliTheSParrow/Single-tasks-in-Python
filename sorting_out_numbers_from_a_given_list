@@ -1,5 +1,5 @@
 '''
-This code examines numbers from a given list (original_list) and if they meet the given criteria, it puts them in a
+This code examines numbers from a given list (original_list) and if they meet the given criteria (value01), it puts them in a
 new list (new_list) and prints them out.
 '''
 
