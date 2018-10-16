@@ -1,0 +1,12 @@
+# This code checks the numbers of two given lists (list01, list02) and unite the numbers into a third list (list03)
+# without repetition and prints them out.
+
+def unify_list(list01, list02):
+    list03 = list(set(list01) | set(list02))
+    return list03
+
+
+list01 = [2, 3, 4, 5, 1, 10, 7, 8, 9, 6]
+list02 = [44, 5, 13, 10, 7, 12, 14, 61]
+
+print(unify_list(list01, list02))
