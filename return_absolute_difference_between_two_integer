@@ -1,0 +1,16 @@
+# This code returns the difference between two given integer (number1, number2). If the difference is minus value,
+# triple the absolute difference returns.
+
+
+number1 = 51
+number2 = 50
+
+
+def difference(number1, number2):
+    if number1 < number2:
+        return (number2 - number1)
+    else:
+        return (3 * abs(number2 - number1))
+
+
+print(difference(number1, number2))
