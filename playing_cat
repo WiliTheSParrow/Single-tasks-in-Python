@@ -1,0 +1,22 @@
+"""
+We have a loud playing cat. The "hour" parameter is the current hour time in the range 0, 23, etc.
+We won't sleep if the cat is playing and the hour is before 6 or after 21. This code returns True if we are not able
+to sleep, thanks to our feline friend...
+"""
+
+playing = True
+hour = 22
+
+
+def feline_fun(playing, hour):
+    if playing:
+        if 6 > hour or hour > 21:
+            return True
+        else:
+            return False
+
+    else:
+        return False
+
+
+print(feline_fun(playing, hour))
