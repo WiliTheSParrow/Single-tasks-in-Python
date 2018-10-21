@@ -1,0 +1,13 @@
+# This code returns True if a given int (given_number) is within 10 of 100 or 200 and prints the result.
+
+given_number = 95
+
+
+def near_hundred(given_number):
+    if given_number < 90 or 110 < given_number < 190 or given_number > 210:
+        return False
+    else:
+        return True
+
+
+print(near_hundred(given_number))
