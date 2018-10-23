@@ -1,0 +1,25 @@
+# This code returns True if one of the given two integer values (a, b) is negative and one is positive.
+# Except if the "criteria" parameter is False, then returns True only if both are positive.
+# It prints out the result.
+
+
+a = -1
+b = 1
+criteria = False
+
+
+def pos_neg(a, b, criteria):
+    if criteria == True:
+        if a > 0 and b < 0 or a < 0 and b > 0:
+            return True
+        else:
+            return False
+
+    if criteria == False:
+        if a > 0 and b > 0:
+            return True
+        else:
+            return False
+
+
+print(pos_neg(a, b, criteria))
