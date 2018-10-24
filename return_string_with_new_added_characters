@@ -1,0 +1,20 @@
+"""
+This code returns a new string where "good " has been added to the front. If the given string already begins with
+"good ", it returns the string unchanged. It prints out the returned string.
+
+"""
+
+given_string = 'boy'
+
+
+def not_string(given_string):
+    if ('good' in given_string) == True:
+        if given_string.find('good') != 0:
+            return 'good ' + given_string
+        else:
+            return given_string
+    if ('good' in given_string) == False:
+        return 'good ' + given_string
+
+
+print(not_string(given_string))
