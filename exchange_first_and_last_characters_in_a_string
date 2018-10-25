@@ -9,7 +9,7 @@ given_string = 'Python'
 def mix_front_back(given_string):
     if len(given_string) <= 1:
         return given_string
-    if len(given_string) > 0:
+    if len(given_string) > 1:
         return given_string[-1:] + given_string[1:-1] + given_string[:1]
 
 
