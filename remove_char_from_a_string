@@ -1,0 +1,15 @@
+"""
+This code returns and prints out a new string from a non-empty string (given_string) where the character at index 
+integer (number) has been removed.
+"""
+
+given_string = 'Snape'
+number = 2
+
+
+def missing_char(given_string,number):
+    if number < len(given_string):
+        return (given_string.replace(given_string[number], "", 1))
+
+
+print(missing_char(given_string, number))
