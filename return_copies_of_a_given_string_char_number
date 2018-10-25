@@ -1,0 +1,16 @@
+"""
+This code returns and prints out a given string's (given_string) first 4 char 4 times.
+If the string length is less than 4, it returns a new string with 4 copies of the given string.
+"""
+
+given_string = "Python"
+
+
+def first_3_char(given_string):
+    if len(given_string) <= 4:
+        return (given_string * 4)
+    if len(given_string) > 4:
+        return (given_string[0:4]) * 4
+
+
+print(first_3_char(given_string))
